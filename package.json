@@ -1,11 +1,20 @@
 {
   "name": "Helper",
-  "description": "A minimal library for super basic DOM manipulation tasks.",
   "version": "0.1.0",
+  "description": "A minimal library for super basic DOM manipulation tasks.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/helper.js.git"
+  },
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/helper.js/issues"
+  },
   "devDependencies": {
-    "grunt": "~0.4.0",
-    "grunt-contrib-concat": "~0.1.1",
-    "grunt-contrib-jshint": "~0.1.0",
-    "grunt-contrib-uglify": "~0.1.0"
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.4"
   }
 }
