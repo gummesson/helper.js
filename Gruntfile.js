@@ -42,6 +42,10 @@ module.exports = function(grunt) {
     },
 
     uglify: {
+      options: {
+        report: 'gzip'
+      },
+
       dist: {
         src: ['<%= concat.js.dest %>'],
         dest: 'dist/helper.min.js'
