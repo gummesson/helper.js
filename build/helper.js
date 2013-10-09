@@ -224,8 +224,7 @@
 
   // Add/remove the class from the element's class list.
   Helper.toggleClass = function(element, name) {
-    var hasClass = Helper.hasClass(element, name);
-    if (hasClass === true) {
+    if (Helper.hasClass(element, name)) {
       Helper.removeClass(element, name);
     } else {
       Helper.addClass(element, name);
